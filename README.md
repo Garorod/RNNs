@@ -1,2 +1,3 @@
-# RNNs
-Beating persistence, ARIMA and VAR models of financial time series using Recurrent Neural Networks
+# Beating persistence, ARIMA and VAR models of financial time series using Recurrent Neural Networks
+
+In this project I built recurrent neural network models which use LSTM and GRU units. The aim of the project is to outperform by MAPE persistence model and different econometric models both in case of univariate and multivariate modelling. Closing prices of 10 different companies are used in analysis. Results show that for daily data there is not enough variance for RNNs to dominate persistence model, while for monthly data RNNs on average outperform both econometric and persistence models. More details can be found in Report.pdf. Ipynb notebooks contain all functions and estimators used in report. 
